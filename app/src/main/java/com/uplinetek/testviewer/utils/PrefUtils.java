@@ -18,7 +18,7 @@ public class PrefUtils {
         editor.putBoolean(key, value);
         editor.commit();
     }
- 
+
     public static boolean getBoolean(Context context, String key) {
         SharedPreferences sp = PreferenceManager.getDefaultSharedPreferences(context);
         return sp.getBoolean(key, false);
