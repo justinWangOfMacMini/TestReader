@@ -40,7 +40,7 @@ public class MainActivity extends Activity {
                     }
                     myViewerHelper.setLoginListener(null);
                     startActivity(intent);
-//                    LoadingActivity.this.finish();
+                    MainActivity.this.finish();
                 }
             }
         });
@@ -48,12 +48,10 @@ public class MainActivity extends Activity {
 
     public void onResume() {
         super.onResume();
-//        MobclickAgent.onResume(this);
     }
 
     public void onPause() {
         super.onPause();
-//        MobclickAgent.onPause(this);
     }
 
     @Override
