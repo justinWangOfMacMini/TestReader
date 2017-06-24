@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TestViewer</string>
+    <string name="wrong_package_name">如果您要创建自己的应用，请到官网注册并获取授权！</string>
 </resources>
